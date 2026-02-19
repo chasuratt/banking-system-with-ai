@@ -8,7 +8,10 @@
 
 
 ## Standards
-- Follow REST best practices
+- Follow REST best practices (also explain why ? in technical design)
+- Use BigDecimal for ALL money fields (never double/float)
+- All entities need audit fields (createdAt, updatedAt)
+- Use custom exceptions, never generic ones
 - Minimum test coverage: 80%
 
 ## Project Docs
